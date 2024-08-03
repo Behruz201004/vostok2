@@ -1,0 +1,106 @@
+@media (max-width:900px) {
+    flex-direction:column ;
+
+
+    .kartinka{
+        justify-content: right;
+        display: flex;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+.spanbox{
+ display: flex;
+ gap: 40px;
+}
+.header{
+    padding: 50px 0 50px;
+}
+.hero__box{
+    h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 66px;
+    }
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+hr{
+    margin: 140px 0 140px;
+}
+.wrap1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+    max-width: 1300px;
+    padding: 10px;
+
+    h3{
+     width: 400px;
+     font-size: 56px;
+    }
+
+    h4{
+        width: 400px; 
+        font-size: 40px;
+    }
+
+   .p{
+    width: 400px; 
+    font-size: 22px;
+   }
+   p{
+    width: 400px; 
+    font-size: 16px;
+   }
+
+
+}
+.main__main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img{
+    width: 100%;
+}
+.section__blok{
+    display: flex;
+    justify-content: space-between;
+}
+.clients{
+margin: 280px 70px;
+text-align: center;
+font-size: 50px;
+}
+
+.section__section1{
+    span{
+        display: block;
+        margin: 100px 0 80px;
+    }
+    img{
+       
+
+    }
+}
+.b{
+    width: 100%;
+}
